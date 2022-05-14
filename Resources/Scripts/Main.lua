@@ -37,7 +37,7 @@ Environment.Settings = {
     SaveSettings = true, -- Re-execute upon changing
     ReloadOnTeleport = true,
     Enabled = true,
-    TeamCheck = false,
+    TeamCheck = true
     AliveCheck = true,
     WallCheck = false, -- Laggy
     Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
@@ -50,11 +50,11 @@ Environment.FOVSettings = {
     Enabled = true,
     Visible = true,
     Amount = 90,
-    Color = "255, 255, 255",
-    LockedColor = "255, 70, 70",
+    Color = "106, 13, 173"
+    LockedColor = "0, 0, 255"
     Transparency = 0.5,
     Sides = 60,
-    Thickness = 1,
+    Thickness = 2,
     Filled = false
 }
 
